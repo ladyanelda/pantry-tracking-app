@@ -1,15 +1,16 @@
-import { Inter, Roboto_Mono } from "next/font/google";
+'use client'
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { firebaseConfig } from "@/firebase";
 import { FirebaseAppProvider } from 'reactfire';
 
-const inter = Inter({
-  variable: "--font-inter",
+const geistSans = Geist({
+  variable: "--font-geist-sans",
   subsets: ["latin"],
 });
 
-const robotoMono = Roboto_Mono({
-  variable: "--font-roboto-mono",
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
   subsets: ["latin"],
 });
 
